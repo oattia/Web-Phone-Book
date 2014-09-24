@@ -1,0 +1,106 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+		<title>Admin Control Panel</title>
+		
+		
+		<style>
+		
+		body{
+			
+			background-color : #FFFFCC ;
+		}
+		
+		#f1
+		{
+		font-family:jokerman;
+		font-weight:600;
+		}
+		
+		#f2{
+			text-align : center ;
+			background-color : "yellow" ;
+		}
+		
+		</style>
+		
+	</head>
+	
+	
+	<body bgcolor="#ffffff">
+
+			<center>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			</center>
+			
+			
+			<center>
+			Welcom Admin :) :) 
+			<br/>
+			</center>
+			
+			<table border="1" bordercolor="#FFCC00" style="background-color:#FFFFCC" width="100%" cellpadding="3" cellspacing="3">
+			<tr>
+			<td>
+				<center>
+				To view the users : 
+				</center>
+			<form action = "view.php" method="post" name = "MyForm" id = "f1">
+				
+				<center>
+				Username:<br/>
+				<input type="text" name="query" id = "f2"/>
+				<br/>
+				<br/>
+				</center>
+				
+				<center>
+				<input type="submit" value="view"/>
+				</center>
+				
+			</form>
+		
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<center>
+				<a href = "addFriends.html"> add friends</a>
+				</center>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<center>
+				<a href = "viewFrinds.php"> view friends</a>
+				</center>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<center>
+			<a href = "ControlPanel.html">Edit Admin Personal Data</a>
+			</center>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<center>
+			<a href = "logout.php">Logout</a>
+			</center>
+			</td>
+			</tr>
+			
+			</table>
+	</body>
+</html>
