@@ -7,7 +7,7 @@ The required was to build a web based phone book, where users can register their
 
 The program offers very simple and basic HTML/CSS UI, with client side verification using JavaScript.
 
-The basck end was implemented in PHP to handle all the database's queires in SQL.
+The back end was implemented in PHP and MySQL to handle all the database's queires.
 
 The website ran on a XAMPP server.
 
